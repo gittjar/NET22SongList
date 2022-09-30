@@ -3,9 +3,8 @@ namespace FileManager.Classes
 {
     public class Song
     {
-        public Song()
-        {
-        }
+        public string Title, Artist, Album;
+        public int Year;
     }
 }
 
