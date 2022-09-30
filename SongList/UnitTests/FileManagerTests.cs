@@ -1,5 +1,5 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 namespace UnitTests;
 
@@ -12,5 +12,7 @@ public class FileManagerTests
         var reader = new FileManager.Classes.SongListReader();
 
         var songs = reader.GetSongs();
+
+        Assert.AreEqual(200, songs.Count());
     }
 }
