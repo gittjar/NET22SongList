@@ -2,7 +2,7 @@
 
 namespace FileManager
 {
-    public class Class1
+    public class SongListReader
     {
     }
 }

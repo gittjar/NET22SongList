@@ -6,9 +6,11 @@
 
   <ItemGroup>
     <None Remove="Files\" />
+    <None Remove="Classes\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Files\" />
+    <Folder Include="Classes\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Files\songs.txt">
