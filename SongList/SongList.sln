@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1703.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongList", "SongList\SongList.csproj", "{B1136516-EA5B-4AAB-B285-380B343A13B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManager", "FileManager\FileManager.csproj", "{D7A33E06-582B-46AA-827A-93A020267B4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B1136516-EA5B-4AAB-B285-380B343A13B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1136516-EA5B-4AAB-B285-380B343A13B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1136516-EA5B-4AAB-B285-380B343A13B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A33E06-582B-46AA-827A-93A020267B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A33E06-582B-46AA-827A-93A020267B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A33E06-582B-46AA-827A-93A020267B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A33E06-582B-46AA-827A-93A020267B4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
